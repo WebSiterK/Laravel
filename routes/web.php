@@ -28,5 +28,11 @@ Route::get('/planets', function () {
         ],
     ];
 
-    return view('planets', compact('planets'));
+        $filteredPlanet = null;
+
+    if (request()->has('planet')) {
+        $filteredPlanet = collect($planets)->firstWhere('name', request('planet'));
+    }
+
+    return view('planets', compact('planets', 'filteredPlanet'));
 });
