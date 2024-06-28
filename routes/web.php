@@ -84,3 +84,7 @@ Route::get('/planets', function () {
 
     return view('planets-overview', compact('planets'));
 });
+use App\Http\Controllers\PlanetController;
+
+Route::get('/planets', [PlanetController::class, 'index']);
+Route::get('/planets/{planet}', [PlanetController::class, 'show']);
