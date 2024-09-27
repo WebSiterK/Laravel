@@ -1,0 +1,17 @@
+1727429874-2527-2005455938,1727429873.7033,GET,/users,"App\Http\Controllers\UserController@index",500,11201.904058456,request
+1727429927-0702-1320343926,1727429926.4607,GET,/users,"App\Http\Controllers\UserController@index",500,11501.727104187,request
+1727429975-0265-505406185,1727429974.436,GET,/users,"App\Http\Controllers\UserController@index",200,1082.0641517639,request
+1727430090-4414-1838315875,1727430089.8716,GET,/users,"App\Http\Controllers\UserController@index",500,4234.2250347137,request
+1727436349-0906-110544906,1727436348.36,GET,/users,"App\Http\Controllers\UserController@index",500,4278.5270214081,request
+1727436995-4322-768097881,1727436994.8193,GET,/users,"App\Http\Controllers\UserController@index",500,4053.5051822662,request
+1727437018-0067-1167804247,1727437017.5436,GET,/views,,404,873.35014343262,request
+1727437023-6128-745873646,1727437023.1531,GET,/users,"App\Http\Controllers\UserController@index",500,1930.831193924,request
+1727437172-6823-816247756,1727437172.0998,GET,/users,"App\Http\Controllers\UserController@index",500,4030.3218364716,request
+1727437253-6369-1517869707,1727437253.0641,GET,/users,"App\Http\Controllers\UserController@index",500,2744.3609237671,request
+1727438026-8119-1846671426,1727438026.2077,GET,/users,"App\Http\Controllers\UserController@index",500,4487.035036087,request
+1727438607-5144-809106061,1727438606.9356,GET,/users,"App\Http\Controllers\UserController@index",500,4467.4429893494,request
+1727438838-2274-1271345856,1727438837.6413,GET,/users,"App\Http\Controllers\UserController@index",500,4470.0419902802,request
+1727438963-0949-747462015,1727438962.5075,GET,/users,"App\Http\Controllers\UserController@index",500,4550.595998764,request
+1727439012-1570-1891063759,1727439011.6884,GET,/users,"App\Http\Controllers\UserController@index",500,2431.0529232025,request
+1727439047-6313-1242307953,1727439047.1342,GET,/users,"App\Http\Controllers\UserController@index",200,868.94011497498,request
+1727439082-5573-2081256934,1727439082.0586,GET,/users,"App\Http\Controllers\UserController@index",200,880.96117973328,request

@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planets</title>
-</head>
-<body>
-    <h1>List of Planets</h1>
-    <ul>
-        @foreach ($planets as $planet)
-            <li>
-                <strong>{{ $planet['name'] }}</strong>
-                <p>{{ $planet['description'] }}</p>
-            </li>
-        @endforeach
-    </ul>
-    @endif
-</body>
-</html>
+<!-- resources/views/planet.blade.php -->
+ 
+<h1></h1>
+
+<p>Details about :</p>
+
+@foreach ($planets as $planet)
+<ul>
+    <li>Name: {{ $planet->name }}</li>
+    <li>Description: {{ $planet->description }}</li>
+    <li>Size: {{ $planet->size_in_km }} km</li>
+</ul>
+@endforeach
